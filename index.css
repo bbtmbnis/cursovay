@@ -35,6 +35,7 @@ header {
     text-decoration: none;
     color: white;
     font-size: 15px;
+    transition: 0.25s;
 }
 
 .nav-link-1{
@@ -42,6 +43,23 @@ header {
     color: white;
     font-size: 15px;
     margin-right: -80px;
+    transition: 0.25s;
+}
+
+.menu__link{
+    transition: 0.25s;
+}
+
+.menu__link:hover{
+    color: #363940;
+}
+
+.nav-link:hover{
+    color: #363940;
+}
+
+.nav-link-1:hover{
+    color: #363940;
 }
 
 .main-block {
